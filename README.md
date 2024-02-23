@@ -2,6 +2,7 @@
 My dotfiles for zsh, nvim, etc.
 ## Screenshots
 ![image](https://github.com/rrreydan/dotfiles/assets/85556643/a751824d-0816-4959-9a35-b48a7496f058)
+![image](https://github.com/rrreydan/dotfiles/assets/85556643/9720fe03-c7dc-41bf-b409-78b74710271a)
 ![image](https://github.com/rrreydan/dotfiles/assets/85556643/0b66bd0a-97aa-41f7-9a8b-e2547270d5b5)
 ## Setup
 ### ZSH
