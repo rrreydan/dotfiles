@@ -68,7 +68,6 @@ require("lazy").setup({
   }, 
   { 'nvim-tree/nvim-web-devicons' },
   { 'windwp/nvim-autopairs' },
-  { 'terrortylor/nvim-comment' },
   { 'windwp/nvim-ts-autotag' },
   { 'nvim-tree/nvim-tree.lua' },
   { 'akinsho/bufferline.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
