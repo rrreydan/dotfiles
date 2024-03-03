@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias upgrade="sudo apt update && sudo apt upgrade"
+alias obsidian="nvim /mnt/c/Users/rrrey/OneDrive/Документы/ObsidianVault"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -69,7 +69,6 @@ require("lazy").setup({
   { 'nvim-tree/nvim-web-devicons' },
   { 'windwp/nvim-autopairs' },
   { 'windwp/nvim-ts-autotag' },
-  { 'nvim-tree/nvim-tree.lua' },
   { 'akinsho/bufferline.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
   {
 	  "L3MON4D3/LuaSnip",
@@ -106,4 +105,10 @@ require("lazy").setup({
             },
         },
   },
+  {
+    'epwalsh/obsidian.nvim',
+    version = "*",
+    lazy = true,
+    ft = "markdown",    
+  }
 });
