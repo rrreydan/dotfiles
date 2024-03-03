@@ -23,6 +23,14 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-Tab>', ':BufferLineCyclePrev<CR>')
 
+-- Telescope
+vim.keymap.set(
+  'n',
+  '<leader>fb',
+  ':Telescope file_browser<CR>',
+  { noremap = true }
+)
+
 -- Trouble
 vim.keymap.set('n', '<leader>t', ':TroubleToggle<CR>')
 

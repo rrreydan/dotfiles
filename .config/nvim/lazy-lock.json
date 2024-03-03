@@ -32,6 +32,7 @@
   "onedark.vim": { "branch": "main", "commit": "57b77747694ea5676c3ca0eeaf9567dc499730c0" },
   "plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },
   "solarized-osaka.nvim": { "branch": "main", "commit": "f6e66670e31c09cfb7142a16d5dc2f26d2a31a40" },
+  "telescope-file-browser.nvim": { "branch": "master", "commit": "48ffb8de688a22942940f50411d5928631368848" },
   "telescope.nvim": { "branch": "master", "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a" },
   "tokyonight.nvim": { "branch": "main", "commit": "610179f7f12db3d08540b6cc61434db2eaecbcff" },
   "trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },

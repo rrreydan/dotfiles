@@ -58,6 +58,7 @@ require("lazy").setup({
     tag = '0.1.4',
     dependencies = {'nvim-lua/plenary.nvim'}
   }, 
+  { 'nvim-telescope/telescope-file-browser.nvim' },
   { 'lewis6991/gitsigns.nvim' },
   {
     'nvim-lualine/lualine.nvim',
