@@ -20,7 +20,15 @@ require("lazy").setup({
     opts = {},
   },
   { 'craftzdog/solarized-osaka.nvim' },
-  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = {} },
+  { 'ellisonleao/gruvbox.nvim', priority = 1000 , config = true, opts = {} },
+  { 
+    'maxmx03/solarized.nvim',
+    config = function() 
+      require('solarized').setup({
+        transparent = false
+      })
+    end
+  },
     
   -- === LSP ===
   { 'nvim-treesitter/nvim-treesitter' }, 

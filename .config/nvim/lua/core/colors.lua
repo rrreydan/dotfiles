@@ -11,4 +11,4 @@ function SetColor(color)
     vim.api.nvim_set_hl(0, "LineNr", {bg = "none"})
 end
 
-SetColor('gruvbox')
+SetColor('solarized-osaka')

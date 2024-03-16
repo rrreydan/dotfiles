@@ -27,8 +27,7 @@ vim.keymap.set('n', '<s-Tab>', ':BufferLineCyclePrev<CR>')
 vim.keymap.set(
   'n',
   '<leader>fb',
-  ':Telescope file_browser<CR>',
-  { noremap = true }
+  ':Telescope file_browser<CR>'
 )
 
 -- Trouble
