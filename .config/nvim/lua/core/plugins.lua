@@ -21,14 +21,6 @@ require("lazy").setup({
   },
   { 'craftzdog/solarized-osaka.nvim' },
   { 'ellisonleao/gruvbox.nvim', priority = 1000 , config = true, opts = {} },
-  { 
-    'maxmx03/solarized.nvim',
-    config = function() 
-      require('solarized').setup({
-        transparent = false
-      })
-    end
-  },
     
   -- === LSP ===
   { 'nvim-treesitter/nvim-treesitter' }, 
@@ -113,11 +105,5 @@ require("lazy").setup({
                 desc = 'Create a selection for selected text or word under the cursor',
             },
         },
-  },
-  {
-    'epwalsh/obsidian.nvim',
-    version = "*",
-    lazy = true,
-    ft = "markdown",    
   }
 });
