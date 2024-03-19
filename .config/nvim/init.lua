@@ -1,4 +1,4 @@
 -- Basic config
-require('core')
+require("core")
 -- Plugins config
-require('plugins')
+require("plugins")
