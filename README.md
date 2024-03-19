@@ -1,9 +1,9 @@
 # dotfiles
 My dotfiles for zsh, nvim, etc.
 ## Screenshots
-![image](https://github.com/rrreydan/dotfiles/assets/85556643/a751824d-0816-4959-9a35-b48a7496f058)
-![image](https://github.com/rrreydan/dotfiles/assets/85556643/9720fe03-c7dc-41bf-b409-78b74710271a)
-![image](https://github.com/rrreydan/dotfiles/assets/85556643/0b66bd0a-97aa-41f7-9a8b-e2547270d5b5)
+![image](https://github.com/rrreydan/dotfiles/assets/85556643/204d06f7-5cac-483b-ba0d-6693c24b2399)
+![image](https://github.com/rrreydan/dotfiles/assets/85556643/e4d80244-d19f-48cd-903e-2f6fb6b2a490)
+![image](https://github.com/rrreydan/dotfiles/assets/85556643/5ca73296-1750-4709-a4a7-0447f932a9ec)
 ## Setup
 ### ZSH
 1. Install **Oh My ZSH**: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` 
@@ -11,7 +11,6 @@ My dotfiles for zsh, nvim, etc.
 3. Install the necessary plugins:
 	- **autosuggesions plugin**: `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 	- **zsh-autocomplete plugin**: `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
-4. Install **nvm**: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`
 ### Neovim
 1. Install auxiliary utilities for *telescope*: `sudo pacman -S grep ripgrep fd`
 2. Install the necessary language servers ([server_configurations.md](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md))
