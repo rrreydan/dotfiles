@@ -111,4 +111,5 @@ require("lazy").setup({
 			},
 		},
 	},
+  { "NMAC427/guess-indent.nvim" },
 })
