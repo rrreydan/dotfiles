@@ -1,9 +1,26 @@
-require("nvim-treesitter.configs").setup({
-	ensure_installed = { "typescript", "lua", "go", "tsx", "javascript" },
-
-	sync_install = false,
-	auto_install = true,
-	highlight = {
-		enable = true,
-	},
-})
+return {
+  {
+    "nvim-treesitter/nvim-treesitter",
+    tag = "v0.9.1",
+    opts = {
+      ensure_installed = {
+        "javascript",
+        "typescript",
+        "vue",
+        "css",
+        "gitignore",
+        "http",
+        "json",
+        "scss",
+        "sql",
+        "vim",
+        "lua",
+      },
+      query_linter = {
+        enable = true,
+        use_virtual_text = true,
+        lint_events = { "BufWrite", "CursorHold" },
+      },
+    },
+  },
+}
